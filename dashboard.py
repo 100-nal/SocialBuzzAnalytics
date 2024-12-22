@@ -7,9 +7,7 @@ import plotly.express as px
 def load_data():
     try:
         # Ensure the file path is correct
-        data = pd.read_csv(
-            r"C:\\Users\\shson\\OneDrive\\Git-Projects\\SocialMedia Analytics\\merged_social_media_data.csv"
-        )
+        data = pd.read_csv("merged_social_media_data.csv")
         return data
     except FileNotFoundError:
         st.error("The file 'merged_social_media_data.csv' was not found. Ensure it exists in the specified path.")
