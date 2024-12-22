@@ -1,4 +1,13 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+import openpyxl
+
+# Load the datasets
+csv_data = pd.read_csv('Time-Wasters on Social Media.csv')
+excel_data = pd.ExcelFile('Social Meida Dataset.xlsx')
+
+# Parse the Excel file's first sheet
+excel_data_sheet1 = excel_data.parse('Sheet1')
 
 # Standardize column names for consistency
 csv_data.rename(columns={'Age': 'age', 'Gender': 'gender'}, inplace=True)
