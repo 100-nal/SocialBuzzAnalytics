@@ -27,11 +27,6 @@ With **SocialBuzzAnalytics**, all these questions (and more\!) are answered thro
 4️⃣ **Spending Trends by Age:** How does age shape our spending habits online?  
 5️⃣ **Interactive Scatter Plot:** Correlate usage time with spending in a beautiful, interactive chart.
 
----
-
-## 
-
-## 
 
 ## 
 
@@ -98,7 +93,7 @@ Clone the repository:
 
 The ultimate leaderboard for social media platforms\!
 
-![][image1]
+![platform_popularity](platform_popularity.png)
 
 ### 
 
@@ -108,25 +103,25 @@ The ultimate leaderboard for social media platforms\!
 
 Who’s got their thumb scrolling the most?
 
-![][image2]
+![avg_social_media_usage_by_gender](avg_social_media_usage_by_gender.png)
 
 ### **3️⃣ Spending by Influence Level**
 
 Does "influential" mean "bigger spender"?
 
-![][image3]
+![spendingbyinfluencelevel](spendingbyinfluencelevel.png)
 
 ### **4️⃣ Spending Trends by Age**
 
 A rollercoaster of spending habits across ages\!
 
-![][image4]
+![spendingtrendsbyage](spendingtrendsbyage.png)
 
 ### **5️⃣ Interactive Scatter Plot**
 
 Dive into a dynamic plot that links usage and spending.
 
-![][image5]
+![smvssb](smvssb.png)
 
 ---
 
